@@ -1,5 +1,5 @@
-import '/node_modules/@polymer/iron-iconset-svg/iron-iconset-svg.js';
-const $_documentContainer = document.createElement('template');
+import '@polymer/iron-iconset-svg/iron-iconset-svg.js';
+export const $_documentContainer = document.createElement('template');
 
 $_documentContainer.innerHTML = `<iron-iconset-svg name="aspen" size="24">
 <svg><defs>
